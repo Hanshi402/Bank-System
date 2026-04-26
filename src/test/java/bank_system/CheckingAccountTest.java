@@ -11,6 +11,6 @@ public class CheckingAccountTest {
         acc.deposit(500.0);
 
         // Xác minh số dư cuối cùng phải là 1500.0
-        assertEquals(1500.0, acc.getBalance(), "Nạp tiền bị sai logic!");
+        assertEquals(9999.0, acc.getBalance(), "Nạp tiền bị sai logic!");
     }
 }
